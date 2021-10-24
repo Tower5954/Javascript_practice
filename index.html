@@ -54,7 +54,7 @@
  	// Print something to a screen 
 
  	 	var firstName = "John";
- 	 	 	firstName = "Tim";
+ 	 	 	//firstName = "Tim";
 
 
  		num_1 = 11
@@ -66,9 +66,18 @@
  		 		 			 		 		 			document.getElementById("demo4").innerHTML = 2 != 5;
 	// if statements
 
-	if(firstName == "John"){
+	// && = and
+	// || = or
+	// ! = not
+
+	if(firstName == "John" && 4 == 4){
 		 			document.getElementById("demo").innerHTML = firstName;
-	} else { 		 			document.getElementById("demo").innerHTML = "Your name is not John!";
+	} else if ( firstName == "Bob"){
+			document.getElementById("demo").innerHTML = "Hey Bob";
+	}
+
+
+	else { 		 			document.getElementById("demo").innerHTML = "Your name is not John or Bob!";
 
 
 	}
